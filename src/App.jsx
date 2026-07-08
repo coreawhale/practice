@@ -74,7 +74,7 @@ export default function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>📋 연습 게시판</h1>
+        <h1>📋 자유게시판</h1>
         <span className="subtitle">React + Vite</span>
       </header>
 
