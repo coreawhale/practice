@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(& claude --version 2>$null)",
+      "PowerShell(& claude --help 2>$null)",
+      "PowerShell(& \"C:\\\\Users\\\\corea\\\\.claude\\\\claude-continue.cmd\" --version)",
+      "PowerShell(& \"C:\\\\Users\\\\corea\\\\.claude\\\\claude-continue.cmd\" --version; Write-Output \"--- 최종 settings.json ---\"; Get-Content \"$env:APPDATA\\\\Code\\\\User\\\\settings.json\")"
+    ]
+  }
+}
